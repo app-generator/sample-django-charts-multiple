@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     
     'apps',
     'apps.product',
-    'apps.user'
+    'apps.user',
+    
+    'import_export',
 ]
 
 AUTH_USER_MODEL = "apps_user.User"
