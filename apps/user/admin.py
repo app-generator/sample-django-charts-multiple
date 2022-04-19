@@ -13,6 +13,5 @@ class UserResource(resources.ModelResource):
 class UserAdmin(ImportMixin, admin.ModelAdmin):
     resource_class = UserResource
     list_display = ('id', 'username', 'email', 'has_purchased')
-    list_display_links = ('id', 'username', 'email', 'has_purchased')
     list_filter = ('has_purchased',)
     search_fields = ('username', 'email')
