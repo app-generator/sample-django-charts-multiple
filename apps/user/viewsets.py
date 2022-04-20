@@ -1,3 +1,5 @@
+import calendar
+
 from rest_framework import viewsets
 from rest_framework.response import Response
 from rest_framework import status
@@ -33,7 +35,7 @@ class UserViewSet(viewsets.ModelViewSet):
         data = []
         for month in months:
             data.append({
-                'month': month,
+                'month': calendar.month_name[month],
                 'count': User.objects.filter(created__month=month).count()
             })
         return Response(data, status=status.HTTP_200_OK)
