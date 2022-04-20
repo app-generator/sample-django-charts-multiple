@@ -7,7 +7,7 @@ from apps.product.models import Product
 class ProductResource(resources.ModelResource):
     class Meta:
         model = Product
-        fields = ('id', 'name', 'price', 'description', 'created', 'updated')
+        fields = ('id', 'name', 'price', 'description', 'created')
         
 @admin.register(Product)
 class ProductAdmin(ImportMixin, admin.ModelAdmin):

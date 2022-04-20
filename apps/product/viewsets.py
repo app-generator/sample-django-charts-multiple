@@ -12,17 +12,17 @@ class ProductViewSet(viewsets.ModelViewSet):
     serializer_class = ProductSerializer
 
     @action(detail=False, methods=['get'], url_path='sales')
-    def sales_over_time(self, request, *args, **kwargs):
+    def sales_over_month(self, request, *args, **kwargs):
         products = Product.objects.all()
-        days = []
+        months = []
         for product in products:
-            days.append(product.created.date())
-        days = list(set(days))
-        days.sort()
+            months.append(product.created.date().month)
+        months = list(set(months))
+        months.sort()
         data = []
-        for day in days:
+        for month in months:
             data.append({
-                'day': day,
-                'count': Product.objects.filter(created__date=day).count()
+                'month': month,
+                'count': Product.objects.filter(created__month=month).count()
             })
         return Response(data, status=status.HTTP_200_OK)

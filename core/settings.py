@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'apps.user',
     
     'import_export',
+    'rest_framework'
 ]
 
 AUTH_USER_MODEL = "apps_user.User"

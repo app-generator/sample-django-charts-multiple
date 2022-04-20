@@ -23,17 +23,17 @@ class UserViewSet(viewsets.ModelViewSet):
         
     
     @action(detail=False, methods=['get'], url_path='stats/users_created')
-    def user_created_per_day(self, request, *args, **kwargs):
+    def user_created_per_month(self, request, *args, **kwargs):
         users = User.objects.all()
-        days = []
+        months = []
         for user in users:
-            days.append(user.date_joined.date())
-        days = list(set(days))
-        days.sort()
+            months.append(user.created.date().month)
+        months = list(set(months))
+        months.sort()
         data = []
-        for day in days:
+        for month in months:
             data.append({
-                'day': day,
-                'count': User.objects.filter(date_joined__date=day).count()
+                'month': month,
+                'count': User.objects.filter(created__month=month).count()
             })
         return Response(data, status=status.HTTP_200_OK)
