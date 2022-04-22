@@ -1,0 +1,81 @@
+id,name,price,created,description,quantity_sold
+1,Oil - Canola,true,2022-02-25 08:15:33,"Salter-Harris Type III physeal fracture of lower end of right femur, subsequent encounter for fracture with delayed healing",8
+2,Wine - Guy Sage Touraine,false,2022-01-08 11:52:14,"Injury of axillary nerve, unspecified arm, subsequent encounter",1
+3,Foie Gras,false,2022-01-10 01:31:30,"Salter-Harris Type I physeal fracture of lower end of ulna, right arm, initial encounter for closed fracture",3
+4,Cheese - Ricotta,true,2022-01-30 03:01:28,Congenital hiatus hernia,4
+5,Water - Spring Water 500ml,true,2022-03-24 04:07:54,"Other streptococcal arthritis, left hand",9
+6,Scallops - Live In Shell,true,2022-02-21 22:18:57,Benign neoplasm of sigmoid colon,2
+7,Garlic - Elephant,false,2022-02-26 00:10:30,Insect bite (nonvenomous) of back wall of thorax,6
+8,"Crush - Orange, 355ml",false,2022-03-05 14:17:06,"Salter-Harris Type I physeal fracture of lower end of ulna, unspecified arm, initial encounter for closed fracture",4
+9,Cumin - Ground,true,2022-04-10 08:55:29,Other reduction defects of upper limb,10
+10,"Lemonade - Kiwi, 591 Ml",true,2022-02-10 07:01:22,"Infective myositis, thigh",2
+11,Brandy - Bar,true,2022-02-10 01:34:27,"Other physeal fracture of unspecified calcaneus, subsequent encounter for fracture with routine healing",5
+12,Oregano - Fresh,true,2022-03-12 14:06:42,Encounter for breast reconstruction following mastectomy,10
+13,"Lid - Translucent, 3.5 And 6 Oz",false,2022-03-07 00:42:22,Other injury of bronchus,9
+14,V8 Splash Strawberry Banana,true,2022-03-05 13:12:54,"Burn of third degree of unspecified multiple fingers (nail), not including thumb, initial encounter",6
+15,Wine - Chablis 2003 Champs,false,2022-03-18 19:29:08,"Burn of third degree of multiple sites of left wrist and hand, sequela",5
+16,Skirt - 24 Foot,true,2022-02-13 13:56:07,"Unspecified injury of other blood vessels of thorax, unspecified side, initial encounter",4
+17,Squash - Butternut,true,2022-01-26 23:49:10,"Corrosion of unspecified eyelid and periocular area, initial encounter",6
+18,Ecolab - Mikroklene 4/4 L,false,2022-03-22 11:51:59,Contact with recreational machinery,7
+19,"Soup - Knorr, Classic Can. Chili",false,2022-01-21 14:39:44,Intermittent monocular exotropia,3
+20,Vinegar - White Wine,true,2022-04-19 17:55:06,Corrosion of first degree of chest wall,6
+21,Vodka - Moskovskaya,true,2022-01-16 01:46:25,"Struck by macaw, sequela",6
+22,Turkey - Ground. Lean,false,2022-04-11 11:12:28,"Burn of first degree of right forearm, sequela",8
+23,Muffin - Carrot Individual Wrap,true,2022-02-05 20:55:30,"Laceration of muscle, fascia and tendon of long head of biceps, right arm, sequela",9
+24,Muffin Batt - Blueberry Passion,false,2022-03-26 06:35:09,"Poisoning by dental drugs, topically applied, assault, initial encounter",8
+25,Pastry - Apple Muffins - Mini,false,2022-04-10 15:43:33,"Burn of first degree of left elbow, sequela",6
+26,Salt - Table,false,2022-01-20 08:10:23,Unspecified occupant of heavy transport vehicle injured in collision with other motor vehicles in nontraffic accident,5
+27,"Juice - Grape, White",true,2022-01-08 03:31:48,"Unspecified dislocation of left middle finger, initial encounter",1
+28,Veal - Striploin,true,2022-03-18 03:14:41,Benign lipomatous neoplasm of skin and subcutaneous tissue of trunk,2
+29,The Pop Shoppe - Cream Soda,false,2022-04-05 15:24:35,Blister (nonthermal) of lip and oral cavity,6
+30,Cheese - Ricotta,false,2022-03-23 11:20:46,"Nondisplaced fracture of coracoid process, unspecified shoulder, subsequent encounter for fracture with delayed healing",4
+31,"Squash - Pattypan, Yellow",false,2022-03-25 23:38:40,"Nondisplaced comminuted fracture of shaft of radius, unspecified arm, subsequent encounter for closed fracture with nonunion",9
+32,Beer - Paulaner Hefeweisse,true,2022-02-06 16:37:56,"Corrosion of unspecified degree of unspecified upper arm, sequela",8
+33,"Veal - Shank, Pieces",false,2022-02-14 17:02:19,"Injury of conjunctiva and corneal abrasion without foreign body, left eye",7
+34,Rootbeer,false,2022-02-09 09:05:32,Insect bite (nonvenomous) of back wall of thorax,2
+35,Lotus Root,false,2022-03-21 22:23:33,"Other specified injuries of abdomen, subsequent encounter",7
+36,Whmis - Spray Bottle Trigger,true,2022-02-15 12:23:04,"Retinopathy of prematurity, stage 2, left eye",9
+37,Cocoa Powder - Dutched,false,2022-01-29 07:46:43,"Osteonecrosis due to drugs, left finger(s)",7
+38,Tuna - Bluefin,true,2022-04-16 21:05:28,"Burn of first degree of left thumb (nail), subsequent encounter",4
+39,"Shrimp - 16/20, Iqf, Shell On",true,2022-02-22 00:39:08,"Poisoning by other agents primarily affecting gastrointestinal system, assault, subsequent encounter",5
+40,Passion Fruit,true,2022-02-24 04:09:31,Laceration without foreign body of vagina and vulva,8
+41,Veal - Eye Of Round,false,2022-04-06 03:03:02,"Unspecified injury of extensor muscle, fascia and tendon of right thumb at wrist and hand level, sequela",4
+42,Nectarines,true,2022-01-30 20:24:30,"Poisoning by, adverse effect of and underdosing of unspecified antidepressants",2
+43,Beef - Tender Tips,true,2022-01-04 22:39:26,"Collapsed vertebra, not elsewhere classified, lumbosacral region",10
+44,Cheese - Ricotta,true,2022-02-04 23:04:27,"Subluxation of C1/C2 cervical vertebrae, sequela",10
+45,Wine - Carmenere Casillero Del,true,2022-02-28 02:10:19,"Burn of third degree of unspecified palm, sequela",4
+46,Dish Towel,false,2022-01-27 22:05:32,"Brown-Sequard syndrome at T7-T10 level of thoracic spinal cord, subsequent encounter",5
+47,Pork - Caul Fat,false,2022-03-10 16:39:28,"Fall into other water striking bottom causing drowning and submersion, subsequent encounter",10
+48,"Crab - Dungeness, Whole",true,2022-03-15 00:58:01,Occupational exposure to extreme temperature,7
+49,"Spoon - Soup, Plastic",true,2022-03-16 12:28:00,"Nondisplaced avulsion fracture of tuberosity of left calcaneus, initial encounter for open fracture",6
+50,Calvados - Boulard,false,2022-03-10 17:27:37,"Nodular lymphocyte predominant Hodgkin lymphoma, extranodal and solid organ sites",6
+51,Spring Roll Wrappers,true,2022-01-31 22:05:51,"Osteonecrosis due to previous trauma, unspecified femur",6
+52,Vinegar - Balsamic,false,2022-04-05 21:20:49,"Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, right eye",5
+53,"Veal - Brisket, Provimi,bnls",false,2022-03-12 10:04:32,"Other disorders of patella, unspecified knee",5
+54,Ecolab - Balanced Fusion,false,2022-02-07 01:54:29,"Malignant neoplasm of upper-inner quadrant of breast, female",9
+55,Tomato - Peeled Italian Canned,false,2022-03-16 12:06:47,"Unspecified atherosclerosis of nonbiological bypass graft(s) of the extremities, other extremity",5
+56,"Shrimp, Dried, Small / Lb",true,2022-02-03 20:31:27,Unspecified injury at unspecified level of thoracic spinal cord,3
+57,Wine - Sauvignon Blanc,true,2022-02-16 20:42:29,Hemorrhage in early pregnancy,3
+58,"Vodka - Lemon, Absolut",false,2022-03-16 07:02:52,"Unspecified open wound of right breast, sequela",3
+59,Lobak,true,2022-02-10 04:51:39,"Striking against other object with subsequent fall, sequela",6
+60,"Tortillas - Flour, 12",true,2022-03-23 10:26:25,Military operations involving explosion due to accidental detonation and discharge of own munitions or munitions launch device,1
+61,Sprouts - Peppercress,false,2022-01-23 10:05:24,"Laceration without foreign body of left cheek and temporomandibular area, subsequent encounter",8
+62,"Rum - Cream, Amarula",false,2022-03-24 04:55:36,Opioid dependence with opioid-induced psychotic disorder with delusions,10
+63,"Pepper - White, Ground",false,2022-04-14 09:06:10,"Toxic effect of harmful algae and algae toxins, intentional self-harm, subsequent encounter",5
+64,Soup - Campbells Pasta Fagioli,false,2022-02-14 17:16:37,"Nondisplaced other fracture of tuberosity of right calcaneus, initial encounter for open fracture",9
+65,Muffin Batt - Ban Dream Zero,false,2022-01-06 16:42:07,"Unspecified fracture of left lower leg, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with delayed healing",4
+66,Cheese - Le Cru Du Clocher,true,2022-04-16 07:08:57,"Pathological fracture in other disease, unspecified humerus, subsequent encounter for fracture with malunion",1
+67,Peppercorns - Green,false,2022-04-17 14:51:13,"Unspecified spacecraft accident injuring occupant, initial encounter",2
+68,Muffin Mix - Banana Nut,false,2022-01-31 08:17:53,"Displaced fracture of glenoid cavity of scapula, right shoulder, subsequent encounter for fracture with routine healing",3
+69,Milk Powder,true,2022-01-07 01:13:49,"Poisoning by other antiepileptic and sedative-hypnotic drugs, undetermined",7
+70,Butcher Twine 4r,false,2022-03-21 21:06:54,"Staphylococcal arthritis, unspecified wrist",10
+71,"Bread - White, Sliced",true,2022-02-16 23:57:10,Other paralytic syndrome following nontraumatic subarachnoid hemorrhage affecting left non-dominant side,7
+72,Wine - Acient Coast Caberne,false,2022-03-08 17:16:22,"Corrosion of first degree of multiple sites of lower limb, except ankle and foot",9
+73,Juice - Lemon,true,2022-02-12 10:48:02,"Poisoning by anticoagulants, assault, subsequent encounter",5
+74,Urban Zen Drinks,false,2022-02-03 22:57:40,"Other fracture of lower end of right tibia, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with nonunion",3
+75,"Nut - Walnut, Chopped",true,2022-01-09 21:16:28,Other congenital malformations of ear,7
+76,Spinach - Packaged,false,2022-04-13 13:10:47,Rheumatoid vasculitis with rheumatoid arthritis of left hand,5
+77,Langers - Ruby Red Grapfruit,false,2022-04-06 23:51:01,"Displaced oblique fracture of shaft of left fibula, subsequent encounter for closed fracture with nonunion",9
+78,Veal - Heart,false,2022-03-04 14:14:07,Flood,5
+79,Wine - Sauvignon Blanc,true,2022-01-13 18:35:04,Corrosion of third degree of multiple sites of left ankle and foot,6
+80,Coffee - Cafe Moreno,false,2022-01-22 13:30:54,"Corrosion of unspecified degree of lower back, subsequent encounter",7
