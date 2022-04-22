@@ -53,7 +53,8 @@ productSales.then((response) => {
         datasets: [{
             label: 'Products sold',
             data: response.map((data) => data.count),
-            borderWidth: 1
+            borderWidth: 1,
+            backgroundColor: 'rgb(255, 99, 132)',
         }]
     };
 
