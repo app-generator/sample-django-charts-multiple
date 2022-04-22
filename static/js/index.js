@@ -12,7 +12,7 @@ let userCreated = [];
 
 // Fetching data for users that have purchased products
 
-userPurchased = getData('/api/user/stats/purcahsed');
+userPurchased = getData('/api/user/stats/purchased');
 
 // Fetching data for users created over month
 

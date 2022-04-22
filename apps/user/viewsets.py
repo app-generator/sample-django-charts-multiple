@@ -14,7 +14,7 @@ class UserViewSet(viewsets.ModelViewSet):
     serializer_class = UserSerializer
     
     
-    @action(detail=False, methods=['get'], url_path='stats/purcahsed')
+    @action(detail=False, methods=['get'], url_path='stats/purchased')
     def purchase_stats(self, request, *args, **kwargs):
         users = User.objects.filter(has_purchased=True)
         return Response({
