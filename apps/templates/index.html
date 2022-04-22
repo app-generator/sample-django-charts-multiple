@@ -20,20 +20,32 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Stats</h1>
-            </div>
+    <div class="container" style="margin-bottom: 10px;">
+        <h1 class="text-center">Product Stats</h1>
+        <div class="content text-center px-5 mt-5">
+            This is a simple example of a dashboard that shows the stats of a product. It's created using ChartJS
+            and Axios to fetch the data from a REST API. You can find the code of this project on <a href="#">Github</a> 
+            and an article about it <a href="#">here</a>.
         </div>
-        <div class="row">
-            <div class="col-3">
+        <div class="row mt-5">
+            <div class="col-6 mr-2">
+                <h2 class="text-center">
+                    User created over months
+                </h2>
                 <canvas id="user-created"></canvas>
             </div>
-            <div class="col-3">
+            <div class="col-6 ml-2">
+                <h2 class="text-center">
+                    Product sales over months
+                </h2>
                 <canvas id="product-sales"></canvas>
             </div>
-            <div class="col-3">
+        </div>
+        <div class="row mt-5">
+            <div class="col-4 mx-auto">
+                <h2 class="text-center">
+                    Percentage of users who bought a product
+                </h2>
                 <canvas id="user-purchased"></canvas>
             </div>
         </div>
