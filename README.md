@@ -4,7 +4,7 @@ Sample project crafted with `Django`, `Charts.JS`, and `DRF` to showcase how to 
 
 <br />
 
-- 👉 [Charts via DRF](https://sample-django-charts-js.appseed-srv1.com/) - LIVE Demo
+- 👉 [Charts via DRF](https://blog.appseed.us/django-charts-via-drf-and-charts-js/) - Related blog article
 - 👉 Free [support](https://appseed.us/support) via `email` and [Discord](https://discord.gg/fZC6hup).
 
 <br />
