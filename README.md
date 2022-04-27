@@ -13,13 +13,12 @@ Sample project crafted with `Django`, `Charts.JS`, and `DRF` to showcase how to 
 
 - `Up-to-date dependencies`
 - `Stack`: Django
-- `API`: DRF
-- `DB Tools`: Flask-SqlAlchemy, SQLite
+- `API` via DRF
 - `Charts`: Charts.js
 
 <br />
 
-![Flask Charts via Flask-RestX and Charts.js - provided by AppSeed.us](https://user-images.githubusercontent.com/51070104/164218594-2a0a6a4d-618f-4fb8-90ee-7d4d41088466.jpg)
+![Django Charts via DRF and Charts.js - provided by AppSeed](https://user-images.githubusercontent.com/51070104/165535311-3968e507-df70-4121-891a-e83d867315ac.jpg)
 
 ## ✨ How to use it
 
@@ -84,6 +83,10 @@ $ python manage.py runserver
   - Load `data/products.csv` in users table (using import/export feature)
 - Access the HOMEpage 
   - Charts should be displayed with data
+
+<br />
+
+![Django Charts via DRF and Charts.js - provided by AppSeed](https://user-images.githubusercontent.com/51070104/165535311-3968e507-df70-4121-891a-e83d867315ac.jpg)
 
 <br />
 
