@@ -1,46 +1,91 @@
-# blog-sample-django-charts
+# [Django Charts via DRF](https://blog.appseed.us/django-charts-via-drf-and-charts-js/)
 
-## Requirements
+Sample project crafted with `Django`, `Charts.JS`, and `DRF` to showcase how to plot different charts **Pie, Line and Bar Charts**. Frontend uses `Bootstrap5` for styling and `Chart.js` for dynamic charts. The dataset is loaded from `data` directory.
 
-- Django==4.0.4
-- djangorestframework==3.13.1
-- django-import-export==2.8.0
+<br />
 
-## How to use the code
+- 👉 [Charts via DRF](https://sample-django-charts-js.appseed-srv1.com/) - LIVE Demo
+- 👉 Free [support](https://appseed.us/support) via `email` and [Discord](https://discord.gg/fZC6hup).
 
-### Clone the sources
+<br />
 
-```bash
-git clone https://github.com/app-generator/blog-sample-django-charts.git
-cd blog-sample-django-charts
-```
+> Features:
 
-### Create a virtual environment
+- `Up-to-date dependencies`
+- `Stack`: Django
+- `API`: DRF
+- `DB Tools`: Flask-SqlAlchemy, SQLite
+- `Charts`: Charts.js
 
-```bash
-virtualenv -p python3 venv
-source venv/bin/activate
-```
+<br />
 
-**Install dependencies** using pip
+![Flask Charts via Flask-RestX and Charts.js - provided by AppSeed.us](https://user-images.githubusercontent.com/51070104/164218594-2a0a6a4d-618f-4fb8-90ee-7d4d41088466.jpg)
 
-```bash
-pip install -r requirements.txt
-```
+## ✨ How to use it
 
-### Start the API server
+> 👉 **Clone Sources** (this repo)
 
 ```bash
-python manage.py migrate
-python manage.py runserver
+$ git clone https://github.com/app-generator/sample-django-charts-js.git
+$ cd sample-django-charts-js
 ```
 
-You can access the home page at <http://localhost:8000>. However the charts won't be displayed if you haven't load data.
+<br />
 
-Create a superuser using the following command:
+> 👉 **Install Modules** using a Virtual Environment
 
-```shell
-python manage.py createsuperuser
+```bash
+$ virtualenv env
+$ source env/bin/activate
+$ pip3 install -r requirements.txt
 ```
 
-Once it's done, login at this URL <http://localhost:8000/admin> and load the data from the data directory in the project.
+Or for **Windows-based Systems**
+
+```bash
+$ virtualenv env
+$ .\env\Scripts\activate
+$
+$ # Install modules - SQLite Database
+$ pip3 install -r requirements.txt
+```
+
+<br />
+
+> 👉 **Migrate Database**
+
+```bash
+$ python manage.py migrate
+$ python manage.py runserver
+```
+
+<br />
+
+> 👉 **Create Superuser**
+
+```bash
+$ python manage.py createsuperuser
+```
+
+<br />
+
+> 👉 **Start the APP**
+
+```bash
+$ python manage.py runserver
+```
+
+<br />
+
+> The bootstrap flow
+
+- Access the `admin` section 
+  - Load `data/users.csv` in users table (using import/export feature)
+  - Load `data/products.csv` in users table (using import/export feature)
+- Access the HOMEpage 
+  - Charts should be displayed with data
+
+<br />
+
+---
+[Django Charts via DRF](https://blog.appseed.us/django-charts-via-drf-and-charts-js/) - provided by [AppSeed](https://appseed.us)
