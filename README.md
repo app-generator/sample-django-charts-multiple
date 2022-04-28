@@ -1,6 +1,6 @@
 # [Django Charts via DRF](https://blog.appseed.us/django-charts-via-drf-and-charts-js/)
 
-Sample project crafted with `Django`, `Charts.JS`, and `DRF` to showcase how to plot different charts **Pie, Line and Bar Charts**. Frontend uses `Bootstrap5` for styling and `Chart.js` for dynamic charts. The dataset is loaded from `data` directory.
+Sample project crafted with `Django`, `Chart.JS`, and `DRF` to showcase how to plot different charts **Pie, Line and Bar Charts**. Frontend uses `Bootstrap5` for styling and `Chart.js` for dynamic charts. The dataset is loaded from `data` directory.
 
 <br />
 
@@ -14,7 +14,8 @@ Sample project crafted with `Django`, `Charts.JS`, and `DRF` to showcase how to 
 - `Up-to-date dependencies`
 - `Stack`: Django
 - `API` via DRF
-- `Charts`: Charts.js
+- `Charts`: Chart.js
+- `Styling`: BS5 (via CDN)
 
 <br />
 
