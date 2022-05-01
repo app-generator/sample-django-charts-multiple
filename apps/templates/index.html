@@ -27,13 +27,7 @@
     <script src="https://cdn.amcharts.com/lib/5/fonts/notosans-sc.js"></script>
 
     <!-- Google Charts -->
-    <script src="https://www.gstatic.com/charts/loader.js"></script>
-    <script>
-        google.charts.load('current', {
-            packages: ['corechart']
-        });
-        google.charts.setOnLoadCallback(drawChart);
-    </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
     <!--Apex Charts-->
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
@@ -90,6 +84,19 @@
         </div>
     </div>
 
+    <!--Google Charts-->
+    <div class="row mt-5">
+        <div class="col-6 mr-2">
+            <div id="google-line-chart"></div>
+        </div>
+        <div class="col-6 ml-2">
+            <div id="google-bar-chart"></div>
+        </div>
+    </div>
+    <div class="row mt-5 flex items-center">
+        <div id="google-pie-chart"></div>
+    </div>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -105,6 +112,7 @@
 
     {% load static %}
 
+    <script src="{% static 'js/variables.js' %}"></script>
     <script src="{% static 'js/chartjs.js' %}"></script>
     <script src="{% static 'js/chartistjs.js' %}"></script>
     <script src="{% static 'js/amcharts.js' %}"></script>
