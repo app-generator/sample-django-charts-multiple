@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <title>Django Charts via DRF | AppSeed </title>
 
     <link rel="canonical" href="https://blog.appseed.us/django-charts-via-drf-and-charts-js/" />
@@ -25,6 +24,21 @@
     <script src="https://cdn.amcharts.com/lib/5/locales/de_DE.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/geodata/germanyLow.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/fonts/notosans-sc.js"></script>
+
+    <style>
+        #amcharts-line-chart {
+            width: 100%;
+            height: 500px;
+        }
+        #amcharts-pie-chart {
+            width: 100%;
+            height: 500px;
+        }
+        #amcharts-bar-chart {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
 
     <!-- Google Charts -->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -93,7 +107,7 @@
             </div>
         </div>
         <div class="row mt-5 flex items-center">
-            <div id="google-pie-chart"></div>
+            <div class="col-4 mx-auto" id="google-pie-chart"></div>
         </div>
 
         <!--Chartist-->
@@ -119,7 +133,22 @@
                 <div id="apex-bar-chart"></div>
             </div>
             <div class="row mt-5 flex items-center">
-                <div id="apex-pie-chart"></div>
+                <div class="col-6 mx-auto">
+                    <div id="apex-pie-chart"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Amcharts -->
+        <div class="row mt-5">
+            <div class="col-6 mr-2">
+                <div id="amcharts-line-chart"></div>
+            </div>
+            <div class="col-6 ml-2">
+                <div id="amcharts-bar-chart"></div>
+            </div>
+            <div class="row mt-5 flex items-center">
+                <div id="amcharts-pie-chart"></div>
             </div>
         </div>
     </div>
