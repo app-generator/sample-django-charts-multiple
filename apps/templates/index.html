@@ -19,24 +19,26 @@
 
     <!-- Amcharts -->
     <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="//cdn.amcharts.com/lib/5/percent.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/locales/de_DE.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/geodata/germanyLow.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/fonts/notosans-sc.js"></script>
-
     <style>
         #amcharts-line-chart {
             width: 100%;
-            height: 500px;
+            height: 300px;
         }
+
         #amcharts-pie-chart {
             width: 100%;
-            height: 500px;
+            height: 300px;
         }
+
         #amcharts-bar-chart {
             width: 100%;
-            height: 500px;
+            height: 300px;
         }
     </style>
 
@@ -148,7 +150,9 @@
                 <div id="amcharts-bar-chart"></div>
             </div>
             <div class="row mt-5 flex items-center">
-                <div id="amcharts-pie-chart"></div>
+                <div class="col-8 mx-auto">
+                    <div id="amcharts-pie-chart"></div>
+                </div>
             </div>
         </div>
     </div>
