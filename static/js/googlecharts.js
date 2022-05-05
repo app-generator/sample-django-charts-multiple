@@ -15,7 +15,6 @@ function drawPieChart() {
 
         // Set chart options
         let options = {
-            'title': 'Percentage of users who bought a product',
             'width': 400,
             'height': 300
         };
@@ -46,8 +45,7 @@ function drawLineChart() {
 
         // Set chart options
         let options = {
-            'title': 'Users created over month',
-            'width': 400,
+            'width': '100%',
             'height': 300
         };
 
@@ -74,16 +72,11 @@ function drawBarChart() {
         );
 
         let options = {
-            width: '35%',
-            legend: {
-                position: 'none'
-            },
-            title: 'Products sold',
+            width: '100%',
             axes: {
                 x: {
                     0: {
                         side: 'top',
-                        label: 'White to move'
                     }
                 }
             },
