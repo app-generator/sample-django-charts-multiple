@@ -4,7 +4,7 @@ Sample project crafted with `Django`, `DRF` and multiple Charts Libraries to sho
 
 <br />
 
-- 👉 [Multiple Charts via Djano &DRF](#) - Blog Article
+- 👉 [Multiple Charts via Djano & DRF](#) - Blog Article
 - 👉 Free [support](https://appseed.us/support) via `email` and [Discord](https://discord.gg/fZC6hup).
 
 <br />
