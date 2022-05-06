@@ -23,8 +23,7 @@ Sample project crafted with `Django`, `DRF` and multiple Charts Libraries to sho
 
 <br />
 
-![Flask Charts: amCharts, Google Charts, Apex - Free sample by AppSeed.](https://user-images.githubusercontent.com/51070104/166502667-5a91b6a9-f73b-4d73-be4e-85b8462265ee.gif)
-
+![Django Charts: amCharts, Google Charts, Apex - Free sample by AppSeed.](https://user-images.githubusercontent.com/51070104/167153203-d8e9a77a-b3f3-4853-aea4-3873e7c46af7.gif)
 
 ## ✨ How to use it
 
@@ -92,7 +91,7 @@ $ python manage.py runserver
 
 <br />
 
-![Django Charts via DRF and Charts.js - provided by AppSeed](https://user-images.githubusercontent.com/51070104/165535311-3968e507-df70-4121-891a-e83d867315ac.jpg)
+![Django Charts via DRF and Charts.js - provided by AppSeed.](https://user-images.githubusercontent.com/51070104/167153345-6da2c703-ab74-430f-8c40-84c55b5e5b80.jpg)
 
 <br />
 
