@@ -1,10 +1,10 @@
-# Django Charts `amCharts`, `G.Charts`, `Apex`
+# [Django Charts](https://blog.appseed.us/django-sample-amcharts-googlecharts-apexcharts/) `amCharts`, `G.Charts`, `Apex`
 
 Sample project crafted with `Django`, `DRF` and multiple Charts Libraries to showcase how to plot different charts **Pie, Line and Bar Charts**, using `Bootstrap5` for styling.
 
 <br />
 
-- 👉 [Multiple Charts via Djano & DRF](#) - Blog Article
+- 👉 [Multiple Charts via Djano & DRF](https://blog.appseed.us/django-sample-amcharts-googlecharts-apexcharts/) - Blog Article
 - 👉 Free [support](https://appseed.us/support) via `email` and [Discord](https://discord.gg/fZC6hup).
 
 <br />
