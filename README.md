@@ -1,46 +1,100 @@
-# sample-django-charts-multiple
+# Django Charts `amCharts`, `G.Charts`, `Apex`
 
-## Requirements
+Sample project crafted with `Django`, `DRF` and multiple Charts Libraries to showcase how to plot different charts **Pie, Line and Bar Charts**, using `Bootstrap5` for styling.
 
-- Django==4.0.4
-- djangorestframework==3.13.1
-- django-import-export==2.8.0
+<br />
 
-## How to use the code
+- 👉 [Multiple Charts via Djano &DRF](#) - Blog Article
+- 👉 Free [support](https://appseed.us/support) via `email` and [Discord](https://discord.gg/fZC6hup).
 
-### Clone the sources
+<br />
+
+> Features:
+
+- `Up-to-date dependencies`
+- `Stack`: Django
+- `API`: DRF (Django REST Framework)
+- `Chart Libraries`: 
+  - 👉 `Charts.js`
+  - 👉 `Chartist`
+  - 👉 `amCharts`
+  - 👉 `Google Charts`
+  - 👉 `Apex Charts`
+
+<br />
+
+![Flask Charts: amCharts, Google Charts, Apex - Free sample by AppSeed.](https://user-images.githubusercontent.com/51070104/166502667-5a91b6a9-f73b-4d73-be4e-85b8462265ee.gif)
+
+
+## ✨ How to use it
+
+> 👉 **Clone Sources** (this repo)
 
 ```bash
-git clone https://github.com/app-generator/sample-django-charts-multiple.git
-cd sample-django-charts-multiple
+$ git clone https://github.com/app-generator/sample-django-charts-multiple.git
+$ cd sample-django-charts-multiple
 ```
 
-### Create a virtual environment
+<br />
+
+> 👉 **Install Modules** using a Virtual Environment
 
 ```bash
-virtualenv -p python3 venv
-source venv/bin/activate
+$ virtualenv env
+$ source env/bin/activate
+$ pip3 install -r requirements.txt
 ```
 
-**Install dependencies** using pip
+Or for **Windows-based Systems**
 
 ```bash
-pip install -r requirements.txt
+$ virtualenv env
+$ .\env\Scripts\activate
+$
+$ # Install modules - SQLite Database
+$ pip3 install -r requirements.txt
 ```
 
-### Start the API server
+<br />
+
+> 👉 **Migrate Database**
 
 ```bash
-python manage.py migrate
-python manage.py runserver
+$ python manage.py migrate
+$ python manage.py runserver
 ```
 
-You can access the home page at <http://localhost:8000>. However the charts won't be displayed if you haven't load data.
+<br />
 
-Create a superuser using the following command:
+> 👉 **Create Superuser**
 
-```shell
-python manage.py createsuperuser
+```bash
+$ python manage.py createsuperuser
 ```
 
-Once it's done, login at this URL <http://localhost:8000/admin> and load the data from the data directory in the project.
+<br />
+
+> 👉 **Start the APP**
+
+```bash
+$ python manage.py runserver
+```
+
+<br />
+
+> The bootstrap flow
+
+- Access the `admin` section 
+  - Load `data/users.csv` in users table (using import/export feature)
+  - Load `data/products.csv` in users table (using import/export feature)
+- Access the HOMEpage 
+  - Charts should be displayed with data
+
+<br />
+
+![Django Charts via DRF and Charts.js - provided by AppSeed](https://user-images.githubusercontent.com/51070104/165535311-3968e507-df70-4121-891a-e83d867315ac.jpg)
+
+<br />
+
+---
+Django Charts `amCharts`, `G.Charts`, `Apex` - provided by [AppSeed](https://appseed.us)
