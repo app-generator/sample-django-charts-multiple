@@ -4,7 +4,7 @@ Sample project crafted with `Django`, `DRF` and multiple Charts Libraries to sho
 
 <br />
 
-- 👉 [Multiple Charts via Djano & DRF](https://blog.appseed.us/django-sample-amcharts-googlecharts-apexcharts/) - Blog Article
+- 👉 [Multiple Charts via Django & DRF](https://blog.appseed.us/django-sample-amcharts-googlecharts-apexcharts/) - Blog Article
 - 👉 Free [support](https://appseed.us/support) via `email` and [Discord](https://discord.gg/fZC6hup).
 
 <br />
