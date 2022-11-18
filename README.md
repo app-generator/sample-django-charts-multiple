@@ -2,19 +2,25 @@
 
 Sample project crafted with `Django`, `DRF` and multiple Charts Libraries to showcase how to plot different charts **Pie, Line and Bar Charts**, using `Bootstrap5` for styling.
 
-<br />
-
 - 👉 [Multiple Charts via Django & DRF](https://blog.appseed.us/django-sample-amcharts-googlecharts-apexcharts/) - Blog Article
 - 👉 Free [support](https://appseed.us/support) via `email` and [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
+## [Black Friday](https://appseed.us/discounts/) - `75%OFF`
+
+> The campaign is active until `30.NOV` and applies to all products and licenses.
+
+[![AppSeed - Black Friday 2022 Campaign, 75% OFF Discount (all products).](https://user-images.githubusercontent.com/51070104/201829599-9fe6bdd7-3f19-46f3-9115-962eeb13bf29.jpg)](https://appseed.us/discounts/)
+
+<br />
+
 > Features:
 
-- `Up-to-date dependencies`
-- `Stack`: Django
-- `API`: DRF (Django REST Framework)
-- `Chart Libraries`: 
+- ✅ `Up-to-date dependencies`
+- ✅ `Stack`: Django
+- ✅ `API`: DRF (Django REST Framework)
+- ✅ `Chart Libraries`: 
   - 👉 `Charts.js`
   - 👉 `Chartist`
   - 👉 `amCharts`
