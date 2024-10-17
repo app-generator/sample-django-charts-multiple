@@ -1,23 +1,20 @@
 # [Django Charts](https://blog.appseed.us/django-sample-amcharts-googlecharts-apexcharts/) `amCharts`, `G.Charts`, `Apex`
 
-Sample project crafted with `Django`, `DRF` and multiple Charts Libraries to showcase how to plot different charts **Pie, Line and Bar Charts**, using `Bootstrap5` for styling.
+Sample project crafted with `Django`, `DRF` and multiple Charts Libraries to showcase how to plot different charts **Pie, Line, and Bar Charts**, using `Bootstrap5` for styling.
 
 - 👉 [Multiple Charts via Django & DRF](https://blog.appseed.us/django-sample-amcharts-googlecharts-apexcharts/) - Blog Article
-- 👉 Free [support](https://appseed.us/support) via `email` and [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
-> Features:
+---
 
-- ✅ `Up-to-date dependencies`
-- ✅ `Stack`: Django
-- ✅ `API`: DRF (Django REST Framework)
-- ✅ `Chart Libraries`: 
-  - 👉 `Charts.js`
-  - 👉 `Chartist`
-  - 👉 `amCharts`
-  - 👉 `Google Charts`
-  - 👉 `Apex Charts`
+> For a **complete set of features** and long-term support, check out **[Dynamic Django](https://app-generator.dev/docs/developer-tools/dynamic-django/index.html)**, a powerful starter that incorporates:
+
+- ✅ [Dynamic DataTables](https://app-generator.dev/docs/developer-tools/dynamic-django/datatables.html): using a single line of configuration, the data saved in any table is automatically managed
+- ✅ [Dynamic API](https://app-generator.dev/docs/developer-tools/dynamic-django/api.html): any model can become a secure API Endpoint using DRF
+- ✅ [Dynamic Charts](https://app-generator.dev/docs/developer-tools/dynamic-django/charts.html): extract relevant charts without coding all major types are supported
+- ✅ [CSV Loader](https://app-generator.dev/docs/developer-tools/dynamic-django/csv-loader.html): translate CSV files into Django Models and (optional) load the information
+- ✅ Powerful [CLI Tools](https://app-generator.dev/docs/developer-tools/dynamic-django/cli.html) for the GIT interface, configuration editing, updating the configuration and database (create models, migrate DB)
 
 <br />
 
