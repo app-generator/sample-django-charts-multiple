@@ -18,8 +18,6 @@ Sample project crafted with `Django`, `DRF` and multiple Charts Libraries to sho
 
 <br />
 
-![Django Charts: amCharts, Google Charts, Apex - Free sample by AppSeed.](https://user-images.githubusercontent.com/51070104/167153203-d8e9a77a-b3f3-4853-aea4-3873e7c46af7.gif)
-
 ## ✨ How to use it
 
 > 👉 **Clone Sources** (this repo)
